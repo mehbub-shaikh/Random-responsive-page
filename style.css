@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 10px;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  gap: 20px;
+}
+
+.firstbox {
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  /* backdrop-filter: blur(5px); */
+}
+
+.box1 {
+  background-image: url(./OIP.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 130px;
+  font-size: 4rem;
+}
+
+.box4 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 70px;
+}
+.box4 button {
+  border-radius: 5px;
+}
+.box4 :first-child {
+  background-color: rgb(0, 119, 255);
+}
+.box4 button:hover {
+  background-color: rgb(0, 255, 85);
+  border-radius: 5px;
+}
+.box5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box5 a {
+  color: rgb(26, 88, 146);
+}
+
+.box6 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(26, 88, 146);
+}
+
+.secondbox {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  padding-top: 10%;
+}
+
+.pics {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pics:hover {
+  background-position: top;
+  transition: all 1s ease-in-out;
+}
+
+#pic2 {
+  grid-row: span 2;
+}
